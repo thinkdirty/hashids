@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "Hashids",
+    name: "Hashids_Swift",
     products: [
         .library(
-            name: "Hashids",
-            targets: ["Hashids"]),
+            name: "Hashids_Swift",
+            targets: ["Hashids_Swift"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Hashids",
+            name: "Hashids_Swift",
             dependencies: [],
             path: ""),
         .testTarget(
-            name: "HashidsTests",
-            dependencies: ["Hashids"],
+            name: "Hashids_SwiftTests",
+            dependencies: ["Hashids_Swift"],
             path: "Tests"),
     ]
 )
