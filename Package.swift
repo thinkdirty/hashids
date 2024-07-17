@@ -13,7 +13,7 @@ let package = Package(
         .target(
             name: "Hashids",
             dependencies: [],
-            path: "Sources"),
+            path: ""),
         .testTarget(
             name: "HashidsTests",
             dependencies: ["Hashids"],
