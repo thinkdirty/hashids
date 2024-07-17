@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Hashids_Swift
+import Hashids
 
 class HashIdsTests: XCTestCase {
     
